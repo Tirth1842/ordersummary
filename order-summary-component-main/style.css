@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+.container{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width:450px;
+    border-radius: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+.hero{
+    border-radius: 20px 20px 0 0;
+}
+.icon{
+    height: 38px;
+    margin-top:9px;
+    margin-left: 10px;
+    float: left;
+   
+}
+.price{ 
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    height: 60px;
+    background-color:rgba(101, 101, 233,0.05);
+    border-radius: 10px;
+
+}
+span{
+    float: left;
+    font-size: small;
+    font-family: 'Red Hat Display', sans-serif;
+}
+a{
+    float: right;
+    margin-right: 10px;
+    margin-top: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: smaller;
+}
+p{
+    margin-left: 80px; 
+    margin-right: 80px; 
+    font-size: 16px; 
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+button{
+    color: white;
+    background-color:rgb(49, 49, 231);
+    width: 280px;
+    margin-top: 50px;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 0px 8px 15px rgba(101, 101, 233,0.4);
+    font-family: 'Red Hat Display', sans-serif;
+}
+button:hover{
+    background-color:rgb(101, 101, 233);
+}
+
+.cancel:hover{
+    font-weight: 800;
+   
+}

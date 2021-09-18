@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-color:  rgba(101, 101, 233,0.4);
+}
 .container{
+   
     background-color: white;
     margin-left: auto;
     margin-right: auto;
@@ -22,7 +28,7 @@
 .price{ 
     margin-left: auto;
     margin-right: auto;
-    width: 280px;
+    width: 300px;
     height: 60px;
     background-color:rgba(101, 101, 233,0.05);
     border-radius: 10px;
@@ -40,6 +46,10 @@ a{
     font-family: 'Red Hat Display', sans-serif;
     font-size: smaller;
 }
+a:hover{
+    text-decoration: none;
+    color: blueviolet;
+}
 p{
     margin-left: 80px; 
     margin-right: 80px; 
@@ -50,7 +60,7 @@ p{
 button{
     color: white;
     background-color:rgb(49, 49, 231);
-    width: 280px;
+    width: 300px;
     margin-top: 50px;
     height: 40px;
     border-radius: 7px;
@@ -66,3 +76,62 @@ button:hover{
     font-weight: 800;
    
 }
+
+@media all and (max-width: 375px){
+    body{
+        background-image: url(images/pattern-background-mobile.svg);
+        background-color:rgba(101, 101, 233,0.1);
+    }
+    h2{
+        font-size: large;
+    }
+   
+    .container{
+   
+       margin-top: 50px;
+        height: 450px;
+        width:320px;
+        
+    }
+    .hero{
+        width: 320px;
+    }
+    .icon{
+        height: 28px;
+        
+       
+    }
+    .price{
+        height: 50px;
+        width: 220px;
+        
+    }
+    p{
+        font-size: 9px; 
+    }
+    span{
+        font-size: x-small;
+    }
+    a{
+        float: right;
+        margin-right: 10px;
+        margin-top: 20px;
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: x-small;
+    }
+    button{
+        width: 220px;
+        margin-top: 30px;
+        height: 40px;
+        
+        
+    }
+    .cancel{
+        margin-top: 30px;
+        font-size: small;
+    }
+
+    
+}
+
+  

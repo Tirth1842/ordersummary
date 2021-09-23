@@ -2,7 +2,8 @@
 
 body{
     background-image: url(images/pattern-background-desktop.svg);
-    background-color:  rgba(101, 101, 233,0.4);
+    background-repeat: no-repeat;
+    background-color:  #e6ecfd
 }
 .container{
    
@@ -81,7 +82,7 @@ button:hover{
 @media all and (max-width: 375px){
     body{
         background-image: url(images/pattern-background-mobile.svg);
-        background-color:rgba(101, 101, 233,0.1);
+        
     }
     h2{
         font-size: large;
